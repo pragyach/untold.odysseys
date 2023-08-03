@@ -8,7 +8,9 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-openai.api_key = os.getenv('OPENAI_API_KEY')
+
+openai.api_key = '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'
+
 example_destinations = ['Paris', 'London', 'New York', 'Tokyo', 'Sydney', 'Hong Kong', 'Singapore', 'Warsaw', 'Mexico City', 'Palermo']
 random_destination = random.choice(example_destinations)
 
