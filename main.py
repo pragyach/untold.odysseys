@@ -58,7 +58,7 @@ def submit():
 if 'output' not in st.session_state:
     st.session_state['output'] = '--'
 
-st.title('Untold Odyssey')
+st.title('Explore Instagram Guides')
 st.subheader('Let us plan your adventures trip!')
 with st.form(key='trip_form'):
     c1, c2, c3 = st.columns(3)
