@@ -1,2 +1,2 @@
 # untold.odysseys
-Travel planning with gpt-3
+Travel planning with gpt-4
